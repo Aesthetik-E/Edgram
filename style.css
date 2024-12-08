@@ -41,9 +41,13 @@
     z-index: 2;
     } */
 
-       .pseudo-footer {
-        width: 90%; /* Fills most of the smaller screen */
-        height: 50px; /* Adjust height slightly */
+      /* .pseudo-footer {
+        width: 90%; /* Fills most of the smaller screen 
+        height: 50px; /* Adjust height slightly 
+    } */
+
+     .pseudo-footer {
+        width: 90%; /* Stretch wider for small screens */
     }
 
     .footer-symbol{
