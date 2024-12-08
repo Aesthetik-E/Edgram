@@ -30,8 +30,23 @@
     }
 
     .pseudo-footer{
-       width: 99%;
-    }
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 4px;
+    width: 100%;
+    background-color: white;
+    height: 55px;
+    margin-left: 2px;
+    
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+}
+
     
 }
 
