@@ -434,7 +434,7 @@
 
 /*------------------------------------------Pseudo-footer-----------------------------------------*/
 
-.pseudo-footer{
+/*.pseudo-footer{
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -444,6 +444,19 @@
     height: 55px;
     margin-left: 2px;
     
+} */
+
+.pseudo-footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 4px; /* Keeps it near the bottom */
+    width: 30%; /* Match the container width */
+    background-color: white;
+    height: 55px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust centering */
+    box-sizing: border-box; /* Ensures padding doesn’t break layout */
 }
 
 .small-profile-pic .tiny-circle{
