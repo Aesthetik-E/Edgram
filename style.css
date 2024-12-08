@@ -475,6 +475,7 @@
     height: 55px; /* Enough height for children */
     background-color: white; /* Ensure visible background */
     z-index: 100; /* Ensure it stays above content */
+    
 }
 
 .small-profile-pic .tiny-circle{
@@ -484,7 +485,11 @@
 
 .footer-symbol{
     margin-top: 15px;
-   margin-left: 50px; /*new addition */
+   /*margin-left: 50px;  important */
+    margin-left: 0; /* No manual offset */
+    margin-top: 0; /* Optional, can adjust spacing if needed */
+    height: 28px;
+    width: 28px;
 }
 
 .footer-symbol.home{
