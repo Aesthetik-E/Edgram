@@ -41,6 +41,10 @@
     z-index: 2;
     } */
 
+    .pseudo-footer{
+        width: 100%;
+    }
+
 
     .footer-symbol{
         margin-left: 0;
