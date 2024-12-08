@@ -38,18 +38,22 @@
     background-color: white;
     height: 60px;
     margin-left: 2px;
-}
+    z-index: 2;
+    }
 
 
     .footer-symbol{
         margin-left: 0;
+        z-index: 2;
     }
 
 .posts{
     display: flex;
     flex-wrap: wrap;
-    margin-right: -12px;
-}
+    /*margin-right: -12px;*/
+    margin-left: 10px; /*new addition*/
+    }
+
 
     
 }
