@@ -475,6 +475,7 @@
     height: 55px; /* Enough height for children */
     background-color: white; /* Ensure visible background */
     z-index: 100; /* Ensure it stays above content */
+    gap: 20px; /* Adds even spacing between children */
     
 }
 
