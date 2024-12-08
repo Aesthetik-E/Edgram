@@ -29,15 +29,15 @@
         width: 100%;
     }
 
-    .pseudo-footer{
+.pseudo-footer{
     display: flex;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
     position: fixed;
     bottom: 4px;
-    width: 100%;
+    width: 29%;
     background-color: white;
-    height: 55px;
-    
+    height: 60px;
+    margin-left: 2px;
 }
 
 
@@ -98,7 +98,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 17px;
-    margin-top: 20px; /*to replace pseudo-header*/
+    margin-top: 17px; /*to replace pseudo-header*/
 }
 
 .sub-header-right{
@@ -445,7 +445,7 @@
 
 .footer-symbol{
     margin-top: 15px;
-   /* margin-left: 20px;*/
+   margin-left: 50px; /*new addition */
 }
 
 .footer-symbol.home{
@@ -453,9 +453,10 @@
 }
 
 .micro{
-    height: 28px;
-    width: 28px;
-    margin-bottom: 5px;
+    height: 21px;
+    width: 21px; /*new addition*/
+    margin-bottom: 2px;
+    border: 1px solid black;
 }
 
 .small-profile-pic{
@@ -464,4 +465,13 @@
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    margin-left: 40px; /*new addition */
+    height: 100%; /*new addition */
+}
+
+.small-profile-pic .micro{
+    margin-bottom: 5px;   /*new addition */
+}
+.small-profile-pic .tiny-circle{
+    margin-top: -3px; /*new addition */
 }
