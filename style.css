@@ -40,6 +40,14 @@
     
 }
 
+    .pseudo-header{
+        display: none;
+    }
+
+    .footer-symbol{
+        margin-left: 0;
+    }
+
 .posts{
     display: flex;
     flex-wrap: wrap;
