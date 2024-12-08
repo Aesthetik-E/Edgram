@@ -29,31 +29,7 @@
         width: 100%;
     }
 
-  /* .pseudo-footer{
-    display: flex;
-   /* justify-content: space-between;*/
-   /* position: fixed;
-    bottom: 4px;
-    width: 29%;
-    background-color: white;
-    height: 60px;
-    margin-left: 2px;
-    z-index: 2;
-    } */
 
-      /* .pseudo-footer {
-        width: 90%; /* Fills most of the smaller screen 
-        height: 50px; /* Adjust height slightly 
-    } */
-
-     .pseudo-footer {
-        width: 90%; /* Stretch wider for small screens */
-    }
-
-    .footer-symbol{
-        margin-left: 0;
-        z-index: 2;
-    }
 
 .posts{
     display: flex;
@@ -438,85 +414,4 @@
 
 /*------------------------------------------Pseudo-footer-----------------------------------------*/
 
-/*.pseudo-footer{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 4px;
-    width: 29%;
-    background-color: white;
-    height: 55px;
-    margin-left: 2px;
-    
-} */
 
-/*.pseudo-footer {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 4px; /* Keeps it near the bottom 
-    width: 30%; /* Match the container width 
-    background-color: white;
-    height: 55px;
-    left: 50%; /* Center horizontally 
-    transform: translateX(-50%); /* Adjust centering 
-    box-sizing: border-box; /* Ensures padding doesn’t break layout 
-}*/
-
-.pseudo-footer { /*chat gpt final attempt*/
-    display: flex;
-    justify-content: space-between; /* Space out the child icons */
-    align-items: center; /* Center-align children vertically */
-    position: fixed; /* Fix it to the viewport */
-    bottom: 0; /* Stick to the bottom of the screen */
-    left: 50%; /* Center relative to viewport */
-    transform: translateX(-50%); /* Center horizontally */
-    width: 30%; /* Matches your content's design */
-    height: 55px; /* Enough height for children */
-    background-color: white; /* Ensure visible background */
-    z-index: 100; /* Ensure it stays above content */
-    gap: 20px; /* Adds even spacing between children */
-    
-}
-
-.small-profile-pic .tiny-circle{
-    height: 5px;
-    width: 5px;
-}
-
-.footer-symbol{
-    margin-top: 15px;
-   /*margin-left: 50px;  important */
-    margin-left: 0; /* No manual offset */
-    margin-top: 0; /* Optional, can adjust spacing if needed */
-    height: 28px;
-    width: 28px;
-}
-
-.footer-symbol.home{
-    margin-left: 20px;
-}
-
-.micro{
-    height: 21px;
-    width: 21px; /*new addition*/
-    margin-bottom: 2px;
-    border: 1px solid black;
-}
-
-.small-profile-pic{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    margin-left: 40px; /*new addition */
-    height: 100%; /*new addition */
-}
-
-.small-profile-pic .micro{
-    margin-bottom: 5px;   /*new addition */
-}
-.small-profile-pic .tiny-circle{
-    margin-top: -3px; /*new addition */
-}
