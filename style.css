@@ -27,6 +27,11 @@
     .container{
         margin: 0 auto;
         width: 100%;
+        border: none;
+    }
+
+    .footer{
+        border-bottom: 2px solid black;
     }
 
 
