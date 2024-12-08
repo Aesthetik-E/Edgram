@@ -40,9 +40,6 @@
     
 }
 
-    .pseudo-header{
-        display: none;
-    }
 
     .footer-symbol{
         margin-left: 0;
@@ -59,12 +56,13 @@
 
 
 .pseudo-header{
-    display: flex;
+   /* display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
+    display: none;
 }
 
 .pseudo-header-right{
@@ -100,6 +98,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 17px;
+    margin-top: 20px; /*to replace pseudo-header*/
 }
 
 .sub-header-right{
