@@ -42,7 +42,7 @@
     } */
 
        .pseudo-footer {
-        width: 90%; /* Fills most of the smaller screen */
+        width: 800px; /* Fills most of the smaller screen */
         height: 50px; /* Adjust height slightly */
     }
 
