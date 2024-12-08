@@ -42,7 +42,7 @@
     } */
 
        .pseudo-footer {
-        width: 800px; /* Fills most of the smaller screen */
+        width: 90%; /* Fills most of the smaller screen */
         height: 50px; /* Adjust height slightly */
     }
 
@@ -446,17 +446,31 @@
     
 } */
 
-.pseudo-footer {
+/*.pseudo-footer {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    bottom: 4px; /* Keeps it near the bottom */
-    width: 30%; /* Match the container width */
+    bottom: 4px; /* Keeps it near the bottom 
+    width: 30%; /* Match the container width 
     background-color: white;
     height: 55px;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust centering */
-    box-sizing: border-box; /* Ensures padding doesn’t break layout */
+    left: 50%; /* Center horizontally 
+    transform: translateX(-50%); /* Adjust centering 
+    box-sizing: border-box; /* Ensures padding doesn’t break layout 
+}*/
+
+.pseudo-footer { /*chat gpt final attempt*/
+    display: flex;
+    justify-content: space-between; /* Space out the child icons */
+    align-items: center; /* Center-align children vertically */
+    position: fixed; /* Fix it to the viewport */
+    bottom: 0; /* Stick to the bottom of the screen */
+    left: 50%; /* Center relative to viewport */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 30%; /* Matches your content's design */
+    height: 55px; /* Enough height for children */
+    background-color: white; /* Ensure visible background */
+    z-index: 100; /* Ensure it stays above content */
 }
 
 .small-profile-pic .tiny-circle{
