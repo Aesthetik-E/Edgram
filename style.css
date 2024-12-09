@@ -47,24 +47,24 @@
        /*new dimensions for follower stats section*/
 
     .profile-pic-area {
-        width: 90px;
-        height: 71px;
+        width: 100px; /*changed from 90*/
+        height: 80px; /*changed from 71*/
         display: flex;
         position: relative;
         margin-left: 10px;
     }
     
     .profile-pic {
-        width: 90px;
-        height: 84px;
+        width: 100px; /*changed from 90*/
+        height: 94px; /*changed from 84*/
         border-radius: 50%;
         background-image: url(profile-pic.jpg);
         background-size: cover;
     }
 
     .circled-plus {
-        height: 21px;
-        width: 22px;
+        height: 31px; /*changed from 21*/
+        width: 32px; /*changed from 22*/
         border-radius: 50%;
         background-color: #0095F6;
         display: flex;
@@ -84,12 +84,12 @@
     }
 
     .post-num, .followers-num, .following-num {
-        font-size: 20px;
+        font-size: 30px; /*changed from 20*/
         font-weight: 600;
     }
 
     .follower-text {
-        font-size: 12px;
+        font-size: 22px; /*changed from 12*/
     }
 
     
