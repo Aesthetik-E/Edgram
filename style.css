@@ -44,6 +44,54 @@
     }
 
 
+       /*new dimensions for follower stats section*/
+
+    .profile-pic-area {
+        width: 90px;
+        height: 71px;
+        display: flex;
+        position: relative;
+        margin-left: 10px;
+    }
+    
+    .profile-pic {
+        width: 90px;
+        height: 84px;
+        border-radius: 50%;
+        background-image: url(profile-pic.jpg);
+        background-size: cover;
+    }
+
+    .circled-plus {
+        height: 21px;
+        width: 22px;
+        border-radius: 50%;
+        background-color: #0095F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: -14px;
+        right: 6px;
+        color: white;
+        font-size: 21px;
+    }
+
+    .profile-stats {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .post-num, .followers-num, .following-num {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .follower-text {
+        font-size: 12px;
+    }
+
     
 }
 
